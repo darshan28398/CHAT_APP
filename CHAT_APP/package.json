@@ -1,0 +1,38 @@
+{
+  "name": "chat_app_comp3133",
+  "version": "1.0.0",
+  "description": "A chat application built on MERN Stack.",
+  "main": "index.js",
+  "engines" : { "node" : ">=0.12" } ,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "express": "^4.15.2",
+    "mongoose": "^5.4.18",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "reactstrap": "^7.1.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
